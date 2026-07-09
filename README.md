@@ -161,30 +161,21 @@ Responsible for managing the complete AI workflow.
 
 ## 2. Requirements Agent
 
-Responsible for requirement understanding.
+Responsible for requirement understanding and retrieving relevant information.
 
 ### Responsibilities
 
 - Analyze feature requirements
 - Extract acceptance criteria
 - Identify functional scenarios
+- Search knowledge sources
+- Retrieve relevant document chunks
+- Provide additional context to LLM
 - Prepare structured requirement context
 
 ---
 
-## 3. Knowledge Retrieval Agent
-
-Responsible for retrieving relevant information.
-
-### Responsibilities
-
-- Search knowledge sources
-- Retrieve relevant document chunks
-- Provide additional context to LLM
-
----
-
-## 4. Review Agent
+## 3. Review Agent
 
 Responsible for quality validation.
 
